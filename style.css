@@ -1,0 +1,273 @@
+html {
+  font-size: 'roboto';
+}
+
+.navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 15vh;
+  width: auto;
+}
+
+.navBar .navStore {
+  background-color: #20c997;
+  width: 20vw;
+  height: 15vh;
+}
+
+.navBar .navStore .navLogo {
+  width: 17vw;
+  height: 9vh;
+  margin: 20px;
+}
+
+.navBar .navDate {
+  background-color: #20c997;
+  width: 30vw;
+}
+
+.navBar .navSearch {
+  background-color: #20c997;
+  width: 50vw;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .barreLateral {
+  background-color: #5e6360;
+  height: 90vh;
+  width: 15vw;
+}
+
+.container .barreLateral .nombreProd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+.container .barreLateral .nombreProd #nombreProduits {
+  color: white;
+  padding: 0px;
+}
+
+.container .barreLateral .produitType {
+  color: white;
+  font-weight: bold;
+  border-bottom: 1px solid #545755;
+  padding: 10px;
+  border-left: 10px solid  #20c997;
+}
+
+.container .container1 {
+  background-color: #d9d9d9;
+  height: 90vh;
+  width: 90vw;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+
+.container .container1 #divProduits1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: none;
+}
+
+.container .container1 #divProduits1 .classTable {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.container .container1 #divProduits1 .classTable .classTh {
+  background-color: #545755;
+}
+
+.container .container1 #divProduits1 .classTable .classTbody {
+  background-color: #b8b5ae;
+}
+
+.container .container1 #divEntrees1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: none;
+}
+
+.container .container1 #divEntrees1 .classTable {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.container .container1 #divEntrees1 .classTable .classTh {
+  background-color: #545755;
+}
+
+.container .container1 #divEntrees1 .classTable .classTbody {
+  background-color: #b8b5ae;
+}
+
+.container .container1 #divPlats1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: none;
+}
+
+.container .container1 #divPlats1 .classTable {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.container .container1 #divPlats1 .classTable .classTh {
+  background-color: #545755;
+}
+
+.container .container1 #divPlats1 .classTable .classTbody {
+  background-color: #b8b5ae;
+}
+
+.container .container1 #divDesserts1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: none;
+}
+
+.container .container1 #divDesserts1 .classTable {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.container .container1 #divDesserts1 .classTable .classTh {
+  background-color: #545755;
+}
+
+.container .container1 #divDesserts1 .classTable .classTbody {
+  background-color: #b8b5ae;
+}
+
+.container .container1 #divSofts1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: none;
+}
+
+.container .container1 #divSofts1 .classTable {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.container .container1 #divSofts1 .classTable .classTh {
+  background-color: #545755;
+}
+
+.container .container1 #divSofts1 .classTable .classTbody {
+  background-color: #b8b5ae;
+}
+
+.container .container1 #divAlcools1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: none;
+}
+
+.container .container1 #divAlcools1 .classTable {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.container .container1 #divAlcools1 .classTable .classTh {
+  background-color: #545755;
+}
+
+.container .container1 #divAlcools1 .classTable .classTbody {
+  background-color: #b8b5ae;
+}
+
+.container .container1 #divAjouter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.container .container1 #divAjouter .section1Add {
+  background-color: #20c997;
+  width: 30%;
+}
+
+.container .container1 #divAjouter2 {
+  width: 50%;
+  height: 75%;
+  background-color: #b8b5ae;
+  border-radius: 8px;
+  display: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .container1 #divAjouter2 #divAjouter2, .container .container1 #divAjouter2 h1 {
+  background-color: #20c997;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.container .container1 #divAjouter2 #inputDiv2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 5vw;
+}
+
+.container .container1 #divAjouter2 #inputDiv2 .inputDiv2 {
+  margin: 15px;
+  width: 20vw;
+  height: 4vh;
+}
+/*# sourceMappingURL=style.css.map */

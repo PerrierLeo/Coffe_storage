@@ -1,0 +1,236 @@
+
+html{
+    font-size: 'roboto';
+}
+.navBar{
+    display: flex;
+    height: 15vh;
+    width: auto;
+
+    .navStore{
+        background-color: #20c997;
+        width: 20vw;
+        height: 15vh;
+
+        .navLogo {
+            width: 17vw;
+            height: 9vh;
+            margin: 20px;
+        }
+    }
+    .navDate{
+        background-color: #20c997;
+        width: 30vw;
+    }
+    .navSearch{
+        background-color: #20c997;
+        width: 50vw;
+    }
+
+}
+.container {
+    display: flex;
+    
+
+    .barreLateral{
+        background-color:rgb(94, 99, 96);
+        height: 90vh;
+        width: 15vw;
+
+        .nombreProd {
+            display: flex;
+            color: white;
+
+            #nombreProduits{
+                color: white;
+                padding: 0px;
+                
+            }
+        }
+        .produitType{
+            color: white;
+            font-weight: bold;
+            border-bottom: 1px solid rgb(84, 87, 85);
+            padding: 10px;
+            border-left : 10px solid  #20c997;
+        }
+    }
+    .container1{
+        background-color:rgb(217, 217, 217);
+        height: 90vh;
+        width: 90vw;;
+        overflow-y: scroll;
+        scrollbar-width: thin;
+
+            
+            #divProduits1{
+                display: flex;
+                flex-wrap: wrap;
+                display: none;
+
+
+                .classTable {
+                    width: 100%;
+                    color: white;
+                    text-align: center;
+                    
+    
+                    .classTh{
+                        background-color: rgb(84, 87, 85);
+                
+                    }
+    
+                    .classTbody {
+                        background-color :rgb(184, 181, 174);
+                    }
+                }
+            }
+        #divEntrees1 {
+            display: flex;
+            flex-wrap: wrap;
+            display: none;
+            .classTable {
+                width: 100%;
+                color: white;
+                text-align: center;
+
+                .classTh{
+                    background-color: rgb(84, 87, 85);
+                }
+
+                .classTbody {
+                    background-color :rgb(184, 181, 174);
+                }
+            }
+        }  
+        
+        #divPlats1 {
+            display: flex;
+            flex-wrap: wrap;
+            display: none;
+
+            .classTable {
+                width: 100%;
+                color: white;
+                text-align: center;
+
+                .classTh{
+                    background-color: rgb(84, 87, 85);
+                }
+
+                .classTbody {
+                    background-color :rgb(184, 181, 174);
+                }
+            }
+           
+        }
+        #divDesserts1 {
+            display: flex;
+            flex-wrap: wrap;
+            display: none;
+
+            .classTable {
+                width: 100%;
+                color: white;
+                text-align: center;
+
+                .classTh{
+                    background-color: rgb(84, 87, 85);
+                }
+
+                .classTbody {
+                    background-color :rgb(184, 181, 174);
+                }
+            }
+            
+        }
+        #divSofts1 {
+            display: flex;
+            flex-wrap: wrap;
+            display: none;
+
+            .classTable {
+                width: 100%;
+                color: white;
+                text-align: center;
+
+                .classTh{
+                    background-color: rgb(84, 87, 85);
+                }
+
+                .classTbody {
+                    background-color :rgb(184, 181, 174);
+                }
+            }
+           
+        }
+        #divAlcools1 {
+            display: flex;
+            flex-wrap: wrap;
+            display: none;
+
+            .classTable {
+                width: 100%;
+                color: white;
+                text-align: center;
+
+                .classTh{
+                    background-color: rgb(84, 87, 85);
+                }
+
+                .classTbody {
+                    background-color :rgb(184, 181, 174);
+                }
+            }
+
+       
+        }
+        #divAjouter{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+           
+
+           .section1Add{
+               background-color:#20c997;
+               width: 30%;
+               
+           }
+
+        }
+        #divAjouter2{
+            width: 50%;
+            height: 75%;
+            background-color: rgb(184, 181, 174);
+            border-radius: 8px;
+            display: none;
+            justify-content: space-between;
+
+
+            #divAjouter2, h1{
+                background-color: #20c997;
+                color: white;
+                margin: 0px;
+                text-align: center;
+                border-top-left-radius: 8px;
+                border-top-right-radius: 8px;
+            };
+
+            #inputDiv2{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-right: 5vw;
+                .inputDiv2 {
+                    margin: 15px;
+                    width: 20vw;
+                    height: 4vh;
+                };
+            };
+
+            
+        }
+    }
+}
