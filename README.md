@@ -1,3 +1,2 @@
 # Coffe_storage
-
- ![Screenshot](/Coffe_storage ajout stock.png)
+<img src='./Coffe_storage ajout stock.png'>
