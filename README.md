@@ -8,7 +8,7 @@
 
 # Coffe_storage
 <h1>Interface d'ajout de stock</h2>
-<img src='./Coffe_storage_ajout_stock.png'>
+<img width="1276" alt="Coffe_storage_ajout_stock" src="https://user-images.githubusercontent.com/81886172/114457493-638a8700-9bde-11eb-87e3-81974c1e0925.png">
 
 <h1>interface de gestion de stock</h2>
-<img src='./coffe_storage_gestion_stock.png'>
+<img width="1270" alt="coffe_storage_gestion_stock" src="https://user-images.githubusercontent.com/81886172/114457513-69806800-9bde-11eb-8119-95ec79d70d08.png">
